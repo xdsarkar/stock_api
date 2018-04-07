@@ -1,0 +1,30 @@
+{
+  "name": "stock_api",
+  "version": "1.0.0",
+  "description": "aims quant assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "stocks",
+    "express",
+    "mongo",
+    "quandl",
+    "etc."
+  ],
+  "author": "subham sarkar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.13",
+    "morgan": "^1.9.0",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
